@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: sardana-linkam
-  version: 1.2.1
+  version: "1.2.2"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://github.com/ALBA-Synchrotron/sardana-linkam/archive/${{ version }}.tar.gz
-  sha256: d466b9f9c70b8bdc16dff9de4175b1055c08a23ce21de0ab0616e85383ac74cd
+  sha256: 9e00524c36a2de8710f553ba8977ec1dc22bda0a927317462e073b60e45eb8a7
 
 build:
   number: 0
